@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana Modal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button onclick="openModal()">Abrir Ventana </button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p id="modal-message">esta en la ventana modal con 2 opciones.</p>
+    <button onclick="confirmAction()">Confirmar</button>
+    <button onclick="cancelAction()">Cancelar</button>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
