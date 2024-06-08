@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E334D; 
+}
+
+.container {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    background-color: #12292F; /* Color de fondo del contenedor */
+    border: 2px solid #00C4CC; /* Borde del contenedor */
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 150px solid #F4A23D; /* Color del triángulo */
+    border-top: 150px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(90deg);
+
+    
+    
+}

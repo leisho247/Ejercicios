@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6b6b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: 100px;
+  background-image: url(https://www.shutterstock.com/image-illustration/beautiful-illustration-magic-tree-life-260nw-2202814563.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid rgb(231, 224, 224);
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/08/15/Baby-Groot-Ultra-Detailed-PNG-76943348-1.png);
+}
+
+.content {
+  padding: 100px 20px 20px;
+}
+
+h2 {
+  margin: 10px 0 0 0;
+  font-size: 24px;
+  color: #030303;
+}
+
+h3 {
+  margin: 5px 0 20px 0;
+  font-size: 18px;
+  color: #0c0a0a;
+}
+
+p {
+  font-size: 14px;
+  color: #070606;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #10496e;
+  font-size: 20px;
+}

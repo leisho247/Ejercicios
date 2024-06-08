@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 35%;
+    background-color: #00bfff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.left-column .profile-pic {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.left-column h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-column h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.left-column .contact, .left-column .skills, .left-column .languages {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.left-column h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.left-column p {
+    margin: 5px 0;
+}
+
+.skill-bar {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.skill-bar div {
+    height: 10px;
+}
+
+.java { width: 80%; background-color: #4caf50; }
+.python { width: 70%; background-color: #2196f3; }
+.php { width: 60%; background-color: #ff5722; }
+.javascript { width: 75%; background-color: #f0db4f; }
+
+.languages .language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.languages .progress {
+    width: 70%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.languages .progress div {
+    height: 10px;
+}
+
+.english { width: 25%; background-color: #4caf50; }
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+}
+
+.right-column .section {
+    margin-bottom: 20px;
+}
+
+.right-column h2 {
+    color: #00bfff;
+    border-bottom: 2px solid #00bfff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.right-column p, .right-column h4 {
+    margin: 5px 0;
+}
