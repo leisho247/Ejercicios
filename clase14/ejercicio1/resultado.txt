@@ -1,0 +1,1 @@
+La cantidad de números pares en el archivo es: 2494
